@@ -2,14 +2,21 @@
   <div id="app">
     <img src="./assets/logo.png">
     <router-view></router-view>
-    Count: {{ $store.state.count }}
+    <div>
+      Counter: {{ $store.state.count }} times, count is {{ evenOrOdd }}.
+    </div>
   </div>
 </template>
 
 <script>
+import { mapGetters } from 'vuex'
 export default {
-  name: 'app'
+  name: 'hello',
+  computed: mapGetters([
+    'evenOrOdd'
+  ])
 }
+
 </script>
 
 <style>
