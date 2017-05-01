@@ -1,5 +1,7 @@
 # vuex-playground
 
+original source article is here (https://medium.com/codingthesmartway-com-blog/vue-js-2-state-management-with-vuex-introduction-db26cb495113)
+
 > A Vue.js project
 
 ## Build Setup
